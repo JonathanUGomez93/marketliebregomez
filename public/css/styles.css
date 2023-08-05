@@ -44,3 +44,27 @@ ul li a{
     text-decoration: none;
     color: #000;
 }
+.hamburger-logo{
+    text-align: center;
+}
+.hamburger-logo i{
+    color: #ebebeb;
+    background-color: #1259c3;
+    padding: 5px;
+}
+.primer-ul{
+    margin-bottom: .5rem;
+}
+/*foooter*/
+footer section{
+    text-align: center;
+    margin-top: 1rem;
+}
+footer section article{
+    margin-bottom: 1rem;
+}
+footer section article i{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
