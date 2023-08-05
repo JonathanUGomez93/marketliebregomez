@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img {
+    width: 150px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.bg-yellow{
+    background-color: #EAC926;
+}
+.bg-light-grey{
+    background-color: #ebebeb;
+}
+.bg-blue{
+    background-color: #03264C;
+}
+.bg-light-blue{
+    background-color: #1259c3;
+}
+.bg-dark-grey{
+    background-color: #666;
+}
+.bg-green{
+    background-color: #39b54a;
+}
+.titulares{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentosDescripciones{
+    font-size: 16px;
+}
+.centrado{
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
