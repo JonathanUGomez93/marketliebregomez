@@ -1,0 +1,123 @@
+/* estilos:
+
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; 
+
+TIPOGRAFIAS
+
+Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+header{
+    background-color: #EAC926;
+}
+.primerUl{
+    margin-bottom: 1rem;
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+}
+main img {
+    width: 100%;
+}
+.centrado{
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.hamburgerLogo{
+    text-align: center;
+}
+.hamburgerLogo i{
+    color: #ebebeb;
+    background-color: #1259c3;
+    padding: 5px;
+    margin: 1rem;
+    font-size: 2em;
+    border-radius: 5px;
+}
+article{
+    margin-bottom: 10px;
+}
+.titulares{
+    font-size: 24px;
+}
+.infoCard{
+    border: solid #ebebeb 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    position: relative;
+}
+.infoCard i{
+    color: #39b54a;
+}
+.logoEnvios{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+.cajaPrecioDescuento{
+    display: flex;
+}
+.precios{
+    font-size: 18px;
+    width: 30%;
+}
+.descuentosDescripciones{
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+}
+.nombreProducto{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+footer{
+    text-align: center;
+}
+footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #03264C;
+}
+.copy{
+    text-align: start;
+}
+/*media query*/
+/*tablet*/
+@media (min-width: 520px){
+    .sombra520{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+/*desktop*/
+@media (min-width: 1280px){
+
+}

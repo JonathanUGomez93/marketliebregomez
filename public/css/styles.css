@@ -1,5 +1,5 @@
 img {
-    width: 150px;
+    width: 100%;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -87,7 +87,6 @@ footer section article i{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 }
-
 /*desktop*/
 @media (min-width: 1280px){
 
