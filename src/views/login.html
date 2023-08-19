@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- css mio -->
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/styles2.css">
+        <link rel="stylesheet" href="/css/styles-login.css">
+    <title>Ingresá a tu cuenta</title>
+</head>
+<body>
+    <header>
+        <div class="headerFlex">
+            <h1>
+                <img src="/images/logo-mercado-liebre.svg" alt="logo mercado liebre">
+            </h1>
+            <div class="searchBar">
+                <input type="text" placeholder="Buscar productos, marcas">
+            </div>
+            <div class="centrado">
+                <p><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+            </div>
+        </div>
+            <nav>
+                <ul class="navUl">
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href="">Tiendas Oficiales</a></li>
+                    <li><a href="">Vender</a></li>
+                    <li><a href="">Ayuda</a></li>
+                </ul>
+                <ul class="navUl">
+                    <li><a href="/register">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
+                    <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                    <li><a href="">Mis Compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+                </ul>
+            </nav>
+        <div class="hamburgerLogo">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <img class="banner" src="/images/img-home-banner.jpg" alt="banner mercadoliebre">
+    <main>
+        <form action="/" method="post">
+            <div class="data">
+              <label for="username"></label>
+              <input type="text" id="username" name="username" placeholder="Nombre de usuario" required>
+            </div>
+            <div class="data">
+              <label for="password"></label>
+              <input type="password" id="password" name="password" placeholder="Escribí tu contraseña" required>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+    </main>
+    <footer>
+        <section>
+            <article>
+                <i class="fa-solid fa-credit-card"></i>
+                <h3>Pagá con tarjeta o en efectivo</h3>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </article>
+            <article>
+                <i class="fa-solid fa-gift"></i>
+                <h3>Envío gratis desde $ 2.500</h3>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </article>
+            <article>
+                <i class="fa-solid fa-user-shield"></i>
+                <h3>Seguridad, de principio a fin</h3>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+            </article>
+        </section>
+        <p class="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    </footer>
+</body>
+</html>

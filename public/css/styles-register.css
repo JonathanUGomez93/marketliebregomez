@@ -1,0 +1,40 @@
+h1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.formRegister{
+    margin-bottom: 1rem;
+}
+.data{
+    padding: 10px;
+    font-size: 15px;
+}
+.botones{
+    text-align: center;
+}
+.botones input{
+    font-size: 15px;
+    padding: 5px;
+}
+.formRegister .titulo{
+    font-weight: bold;
+}
+/*media query*/
+/*tablet*/
+@media (min-width: 520px){
+.data input{
+    font-size: 15px;
+}
+}
+/*desktop*/
+@media (min-width: 1280px){
+h1{
+    font-size: 2rem;
+}
+.data{
+    font-size: 1.5rem;
+}
+.data input{
+    font-size: 1.5rem;
+}
+}
